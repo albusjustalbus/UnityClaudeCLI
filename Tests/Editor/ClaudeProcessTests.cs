@@ -36,7 +36,7 @@ namespace ClaudeCode.Editor.Tests
         }
 
         [TestCase("claude-sonnet-5")]
-        [TestCase("claude-opus-5")]
+        [TestCase("claude-opus-5-5")]
         [TestCase("claude-fable-5")]
         public void BuildFlags_WithModel_ContainsModelFlag(string model)
         {

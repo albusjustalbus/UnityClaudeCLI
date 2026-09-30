@@ -6,7 +6,7 @@
 - Claude Fable 5 in the model dropdown
 
 ### Changed
-- Sonnet and Opus entries now point at `claude-sonnet-5` / `claude-opus-5` (were pinned to the 4-6 generation)
+- Sonnet and Opus entries now point at `claude-sonnet-5` / `claude-opus-5-5` (were pinned to the 4-6 generation)
 
 ### Fixed
 - Clamp the serialized model index so a selection made on a newer package version cannot throw when the choice list is shorter
